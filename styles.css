@@ -66,7 +66,7 @@ body {
   top: 0;
   left: 0;
   /*background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1810/Badminton_racket_sports_4K_HD_closeup_1366x768.jpg);*/
-  background-image: url("../img/shutterstock_1427088038.jpg");
+  background-image: url("./img/shutterstock_1427088038.jpg");
   background-size: cover;
   opacity: 0.7;
 }
@@ -224,7 +224,7 @@ body {
   height: 400px;
   position: absolute;
   /*background-image: url(https://magazine.spotas.jp/wp-content/uploads/2019/02/85-001.jpg) ;*/
-  background-image: url("../img/shutterstock_116724411457657.jpg");
+  background-image: url("./img/shutterstock_116724411457657.jpg");
   background-size: cover;
   opacity: 0.8;
 }
