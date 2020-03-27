@@ -1,0 +1,257 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  margin :0 auto;
+}
+
+/*.header {
+  color: rgb(29, 27, 27);
+  height: 80px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px;
+  color: #ff7a1b;
+  font-family: 'MS UI Gothic',sans-serif;
+}
+
+.header-list li {
+  font-size: 17px;
+  list-style: none;
+  float: right;
+  margin: 30px 14px;
+  font-family: 'メイリオ', Meiryo,sans-serif;
+  cursor: pointer;
+}
+
+.header-list li {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.header-list li::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: rgb(1, 9, 15);
+  transition: all 0.3s ease 0s;
+}
+.header-list li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.header-list li:hover::after {
+  width: 100%;
+}*/
+
+body {
+  margin: 0px;
+}
+
+.top-wrapper { 
+  height: 680px;
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1810/Badminton_racket_sports_4K_HD_closeup_1366x768.jpg);*/
+  background-image: url("./img/shutterstock_1427088038.jpg");
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.container h1 {
+    width: 80%; 
+    height: 1.5em;
+    color: #fc6805;
+    font-weight: bold;
+    text-align: left;
+
+    position: absolute;
+    font-size: 5em;
+    margin-top: 350px;
+    margin-left: 100px;
+    font-family: 'メイリオ', Meiryo,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container p {
+  width: 80%; 
+    height: 1.5em;
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+    text-align: left;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 2.7em;
+    margin-top: 130px;
+    font-family: 'Yu Gothic UI',sans-serif;
+    letter-spacing: 0.2em;
+    margin-left: 100px;
+}
+
+.container h2 {
+  width: 80%;
+  position: absolute;
+  text-align: left;
+  padding-top: 180px;
+  font-size: 35px;
+  margin: 0px;
+  letter-spacing: 0.1em;
+  margin-left: 100px;
+  opacity: 0.6;
+}
+
+
+.lesson-wrapper {
+  height: 270px;
+  width: 100%;
+  background-color: rgba(245, 253, 253, 0.986);
+}
+
+.lesson-container  {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.lesson-container h1 {
+  padding-bottom: 40px;
+}
+
+.lesson-container p {
+  font-size: 20px;
+}
+
+.message-wrapper {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.message-container h1 {
+  padding-bottom: 40px
+}
+
+.message-container p {
+  font-size: 20px;
+}
+
+.detail-container {
+  text-align: center;
+  /*background-color: rgb(245, 248, 247);*/
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.detail-container h1 {
+  padding-bottom: 40px;
+
+}
+
+.detail-list {
+  text-align: left;
+  padding-top: 20px;
+  margin-left: 450px;
+}
+
+.detail-list p {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.det-img {
+  width: 40%;
+  height: 220px;
+  position: absolute;
+ /* background-image: url(https://tsudoinooka.jp/sport/images/04.jpg);*/
+  background-size: cover;
+}
+
+.signup-wrapper {
+  height: 320px;
+  width: 100%;
+  background-color: rgb(245, 250, 245);
+  text-align: center;
+}
+
+.sign-container h1 {
+  padding-top: 70px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(129, 252, 135);
+  font-size: 20px;
+  color: rgb(39, 2, 2);
+  padding: 14px 34px;
+  border-radius: 4px;
+  opacity: 0.7;
+  cursor: pointer;
+  box-shadow: 0 7px #136613;
+}
+
+.btn:hover {
+  opacity: 1;
+  transition: all 0.2s ;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.picture-wrapper {
+  width: 100%;
+  height: 400px;
+}
+
+.pic-bg {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  /*background-image: url(https://magazine.spotas.jp/wp-content/uploads/2019/02/85-001.jpg) ;*/
+  background-image: url("./img/shutterstock_1167244114.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.pic-container h1 {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 180px;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #15232c;
+  color: white;
+  height: 120px;
+}
+
+.footer-logo {
+  font-size: 36px;
+  padding: 20px;
+  color: white;
+  float: left;
+  font-family: 'MS UI Gothic',sans-serif;
+}
+
+.contact {
+  padding-top: 15px;
+  text-align: right;
+  padding-right: 20px;
+}
