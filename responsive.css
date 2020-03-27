@@ -1,0 +1,129 @@
+@media screen and (max-width: 800px) {
+  .bg {
+    height: 530px;
+  }
+  
+  .top-wrapper{
+    height: 530px;
+  }
+  
+  .container p {
+    margin-top: 70px;
+  }
+  
+  .container h2 {
+    padding-top: 180px
+  }
+  
+   .detail-container {
+    padding-top: 50px;
+  }
+  
+  .detail-list {
+    margin-left: 150px;
+  }
+}
+/* ブレイクポイントが1000px以下のときのメディアクエリを設定してください */
+@media screen and (max-width: 500px) {
+  /* lessonクラスのCSSを指定してください */
+  
+  .top-wrapper {
+    height: 550px;
+  }
+  
+  .bg {
+    height: 550px;
+    /*background-image: url(https://img.kb-cdn.com/imgviewer/NVpIM2ptOHhYRzVmUk5rM1NrNlFxYVV6enV4aGk2UFRJMmxPckdDUUVNYThlc0Z4eEZ4enl0eEFraWFFdXlZRGQ3NlhPdU9TdE5jTW91b2xaQUF5K21RMzlyRjV4QXhJbDFsdUcyRnQ5YllWcmxoUU5WOHBoMWoxamRoM2YvS041eC9MREtGeVFDLzM2TDg4TW1Ja1d6dlVnUVZSdWN1R3R0cHdCck9jdnZqREJpb1FGVEVhRUhURkpKelB0SFdhYmF6V2I5NmIrRmtSY2hRdDNqWkloQT09?square=0);*/
+    background-image: url("../img/shutterstock_14270880388888.jpg");
+  }
+  
+  .container h1 {
+    width: 80%;
+    margin-left: 30px;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 340px;
+    /*background-color: white;*/
+  }
+  
+  .container h2 {
+    margin-left: 0px;
+    font-size: 26px
+  }
+    
+  .container p {
+    margin-left: 0px;
+    font-size: 28px;
+    margin-top: 90px;
+  }
+  
+  .lesson-container h1 {
+    font-size: 26px;
+  }
+  
+  .lesson-container p{
+    font-size: 15px;
+  }
+  
+  .message-wrapper {
+    height: 250px;
+  }
+  
+  .message-container h1 {
+    font-size: 26px;
+  }
+  
+  .message-container p{
+    font-size: 15px;
+  }
+  
+  .detail-container {
+    padding-top: 50px;
+  }
+  
+  .detail-container h1 {
+    font-size: 26px;
+  }
+  
+  .detail-list {
+    margin-left: 30px;
+  }
+  
+  .detail-list p {
+    font-size: 15px;
+  }
+  
+  .sign-container h1 {
+    font-size: 26px;
+  }
+  
+  .picture-wrapper {
+    height: 200px;
+  }
+  
+  .pic-bg {
+    height: 200px;
+  }
+  
+  .pic-container h1 {
+    margin-top: 160px;
+    font-size: 17px;
+    margin-left: 90px;
+  }
+  
+  .footer {
+    height: 80px;
+  }
+  
+  .footer-logo {
+    font-size: 25px;
+    padding: 15px;
+  }
+  
+  .contact {
+    font-size: 6px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+}
