@@ -114,6 +114,20 @@ body {
   opacity: 0.6;
 }
 
+.container p1 {
+  float: right;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.container p1:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
 
 .lesson-wrapper {
   height: 270px;
