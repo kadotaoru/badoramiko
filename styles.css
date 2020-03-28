@@ -224,7 +224,7 @@ body {
   height: 400px;
   position: absolute;
   /*background-image: url(https://magazine.spotas.jp/wp-content/uploads/2019/02/85-001.jpg) ;*/
-  background-image: url("./img/shutterstock_116724411457657.jpg");
+  background-image: url("shutterstock_116724411457657.jpg");
   background-size: cover;
   opacity: 0.8;
 }
