@@ -132,7 +132,7 @@ body {
 }
 
 .lesson-wrapper {
-  height: 270px;
+  height: 330px;
   width: 100%;
   background-color: rgba(245, 253, 253, 0.986);
 }
@@ -148,6 +148,7 @@ body {
 
 .lesson-container p {
   font-size: 20px;
+   margin: 5px, 20px, 5px, 20px;
 }
 
 .message-wrapper {
