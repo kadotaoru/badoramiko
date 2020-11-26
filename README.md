@@ -1,6 +1,6 @@
 # badoramico
 
-## 🗻Tech
+## 🗻Tech 
 - 開発言語：HTML & CSS
 
 ## 📱About LP
