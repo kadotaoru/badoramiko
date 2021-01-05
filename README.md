@@ -1,7 +1,7 @@
 # badoramico
 
 ## 🗻Tech 
-- 開発言語：HTML & CSS
+- 開発言語：HTML & CSS  
 
 ## 📱About LP
 - バドミントン×英会話の事業のLPです
