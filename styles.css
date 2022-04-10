@@ -82,7 +82,7 @@ body {
 
     position: absolute;
     font-size: 5em;
-    margin-top: 350px;
+    margin-top: 250px;
     margin-left: 100px;
     font-family: 'メイリオ', Meiryo,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -204,7 +204,7 @@ body {
   text-align: center;
 }
 
-.sign-container h1 {
+.signup-container h1 {
   padding-top: 70px;
 }
 
