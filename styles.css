@@ -175,7 +175,10 @@ body {
 
 .detail-container h1 {
   padding-bottom: 40px;
+}
 
+.detail-container p {
+  font-size: 20px;
 }
 
 .detail-list {
@@ -206,7 +209,7 @@ body {
 
 .signup-container h1 {
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 .signup-container p {
